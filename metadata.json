@@ -1,0 +1,6 @@
+{
+  "name": "Klickconnect wait-list",
+  "description": "Africa's premier creator marketplace connecting elite creative talent with global clients.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
