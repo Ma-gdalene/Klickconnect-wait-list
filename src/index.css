@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom Typography Utility mappings explicitly specified */
+.font-serif-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-premium {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Luxury Color Gradients */
+.gold-text-gradient {
+  background: linear-gradient(to right, #ffffff, #ffe08d 20%, #e6be58 50%, #b38f2e 80%, #ffffff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine-gold 8s linear infinite;
+}
+
+.gold-solid-gradient {
+  background: linear-gradient(135deg, #ffe08a 0%, #d4af37 50%, #b3912a 100%);
+}
+
+.gold-hover-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #ffe08a 30%, #d4af37 100%);
+}
+
+.dark-glass-card {
+  background: rgba(15, 15, 15, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dark-glass-card-hover:hover {
+  border-color: rgba(212, 175, 55, 0.35);
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.15);
+  transform: translateY(-4px);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glow-gold-subtle {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.1);
+}
+
+.glow-gold-medium {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.25);
+}
+
+/* Animations */
+@keyframes shine-gold {
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
+}
+
+.animate-gold-pulse {
+  animation: gold-pulse 2s infinite alternate;
+}
+
+@keyframes gold-pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2), inset 0 0 5px rgba(212, 175, 55, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.55), inset 0 0 10px rgba(212, 175, 55, 0.25);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
