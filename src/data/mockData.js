@@ -1,12 +1,12 @@
-// Curated data for KlickConnect - Africa's Premier Creator Operating System & Waitlist
+// Curated data for KlickConnect - Ghana's Premier Creative Operating System & Waitlist
 
 export const LIVE_ACTIVITY = [
   { name: 'Kwesi Appiah', role: 'Editorial Photographer', location: 'East Legon, Accra', time: '2m ago' },
   { name: 'Nana Yaa Mansa', role: 'Bridal Client', location: 'Airport Residential', time: '5m ago' },
-  { name: 'Kweku Boateng', role: 'Music Video Director', location: 'Osu, Accra', time: '8m ago' },
-  { name: 'Ama Darkwah', role: 'Celebrity MUA', location: 'Kumasi, Ghana', time: '14m ago' },
-  { name: 'Aura Luxury Studio', role: 'Commercial Brand Client', location: 'Cantonments', time: '19m ago' },
-  { name: 'Jelani Sterling', role: 'Fashion Model', location: 'London & Accra', time: '23m ago' }
+  { name: 'Kweku Boateng', role: 'Commercial Cinematographer', location: 'Osu, Accra', time: '8m ago' },
+  { name: 'Ama Darkwah', role: 'Celebrity Makeup Artist', location: 'Kumasi, Ghana', time: '14m ago' },
+  { name: 'Aura Luxury Studios', role: 'Brand Commercial Client', location: 'Cantonments, Accra', time: '19m ago' },
+  { name: 'Jelani Sterling', role: 'International Model', location: 'London & Accra', time: '23m ago' }
 ];
 
 export const CATEGORIES = [
@@ -32,8 +32,8 @@ export const CREATORS = [
     startingRate: 'GH₵ 4,500 / session',
     responseTime: '< 45 mins',
     verified: true,
-    bio: 'Award-winning fashion and commercial photographer featured in Vogue Africa, GQ, and Glitz Africa. Specializing in high-concept studio lighting, lookbooks, and luxury portraiture.',
-    tags: ['Vogue Featured', 'Medium Format', 'Studio Lighting', 'High Fashion'],
+    bio: 'Award-winning fashion and commercial photographer featured in Vogue Africa and Glitz Africa. Specializing in high-concept studio lighting, lookbooks, and luxury portraiture.',
+    tags: ['Vogue Feature', 'Medium Format', 'Studio Lighting', 'High Fashion'],
     portfolio: [
       'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&q=80&w=800',
@@ -55,7 +55,7 @@ export const CREATORS = [
     responseTime: '< 30 mins',
     verified: true,
     bio: 'Master of glowing melanin skin prep, high-definition airbrushing, and luxury traditional Ghanaian bridal glam. Featured on red carpets across West Africa.',
-    tags: ['HD Airbrush', 'Bridal Glam', 'Editorial Skin', 'Red Carpet'],
+    tags: ['HD Airbrush', 'Bridal Glam', 'Melanin Glow', 'Red Carpet'],
     portfolio: [
       'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=800',
@@ -66,7 +66,7 @@ export const CREATORS = [
   {
     id: 'jelani-osei',
     name: 'Jelani Osei',
-    role: 'International Runway & Lookbook Model',
+    role: 'International Runway & Editorial Model',
     category: 'models',
     location: 'Accra, Paris & Milan',
     avatar: 'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&q=80&w=600',
@@ -98,7 +98,7 @@ export const CREATORS = [
     startingRate: 'GH₵ 6,000 / day',
     responseTime: '< 1 hr',
     verified: true,
-    bio: 'Directing cinematic brand films, high-energy music videos, and luxury wedding films across West Africa. ARRI Alexa and drone licensed operator.',
+    bio: 'Directing cinematic brand films, high-energy music videos, and luxury wedding films across West Africa. ARRI Alexa Mini LF and licensed drone pilot.',
     tags: ['4K Anamorphic', 'Colorist', 'Drone Pilot', 'Music Videos'],
     portfolio: [
       'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800',
@@ -113,30 +113,30 @@ export const FOUNDERS = [
   {
     name: 'Magdalene Frimpomaa Boahene',
     role: 'Founder & Chief Executive Officer',
-    bio: 'Leading the vision of empowering African creators with world-class business infrastructure, client monetization, and global opportunities.',
+    bio: 'Leading the vision of empowering African creators with world-class business infrastructure, client monetization, and global commercial opportunities.',
     initials: 'MB',
-    crest: 'Executive'
+    crest: 'Founder & CEO'
   },
   {
     name: 'Godfred Gbemu',
     role: 'Co-Founder & Head of Creative Direction',
-    bio: 'Championing creative excellence, visual storytelling standards, and community curator networks across Ghana and the diaspora.',
+    bio: 'Celebrated Ghanaian photographer, cinematographer, and visual director. Championing creative excellence and community curator networks across Ghana and the diaspora.',
     initials: 'GG',
-    crest: 'Creative'
+    crest: 'Co-Founder'
   },
   {
     name: 'Gilbert Amoah',
     role: 'Co-Founder & Technology Lead',
-    bio: 'Architecting KlickConnect’s high-performance matching algorithms, digital galleries, and seamless creator-commerce operating system.',
+    bio: 'Architecting KlickConnect’s high-performance matching algorithms, digital client galleries, and seamless creator-commerce operating system.',
     initials: 'GA',
-    crest: 'Technology'
+    crest: 'Co-Founder & Tech'
   }
 ];
 
 export const FAQS = [
   {
     q: 'What is KlickConnect?',
-    a: 'KlickConnect is Ghana and Africa’s premier creator-commerce operating system. We connect clients seeking unforgettable visual work with verified photographers, filmmakers, MUAs, models, and stylists, while providing creators with websites, client delivery galleries, contracts, and Paystack payments.'
+    a: 'KlickConnect is Ghana and Africa’s premier creator-commerce operating system. We connect clients seeking unforgettable visual work with verified photographers, filmmakers, MUAs, models, and stylists, while providing creators with digital websites, client delivery galleries, contracts, and Paystack payments.'
   },
   {
     q: 'How does priority waitlist access work?',

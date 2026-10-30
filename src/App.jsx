@@ -25,7 +25,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#09090b] text-[#F4F4F6] selection:bg-[#E5A855] selection:text-black">
+    <div className="min-h-screen bg-[#F9F7F2] text-[#1F1F1F] selection:bg-[#C8A25A] selection:text-white">
       
       {/* Top Navbar */}
       <Navbar onScrollToForm={scrollToForm} />
